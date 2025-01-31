@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/',  (req, res) => {
   const response = {
-    email: 'adebayoabbdqohar001@gmail.com',
+    email: 'adebayoabdqohar001@gmail.com',
     current_datetime: new Date().toISOString(),
     github_url: 'https://github.com/AbdulQohar1/HNG12-Zero.git'
   };
